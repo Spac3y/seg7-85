@@ -1,0 +1,6 @@
+.DS_Store
+.history
+attiny85_7seg-backups/
+bom/
+*.drl
+fp-lib-table
