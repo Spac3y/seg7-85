@@ -5,10 +5,10 @@
 	(uuid "fb48a21d-be0f-47ca-a69e-877858c68eb9")
 	(paper "A4")
 	(title_block
-		(title "v1.2.0 7seg display w/attiny85 & shift reg")
-		(date "2026-06-06")
-		(rev "1.2.0")
-		(comment 4 "1.2.0: Fix pin headers footprint")
+		(title "7seg display w/attiny85 & shift reg")
+		(date "2026-06-09")
+		(rev "0.0.3")
+		(comment 4 "For changes check changes.md")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC595"
@@ -3709,7 +3709,7 @@
 		(uuid "01407dc9-c550-4624-a4ec-d7c2b449b852")
 	)
 	(label "GND"
-		(at 105.41 38.1 180)
+		(at 105.41 38.1 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4133,7 +4133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 83.82 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4655,7 +4655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 83.82 116.84 0)
 			(hide yes)
 			(show_name no)
