@@ -1,6 +1,10 @@
 # Change log
 This file keeps track of changes/updates on schematic and pcb design
 
+__v0.0.4:__
+- Add image on b.silkscreen
+- change routing using plugin
+
 __v0.0.3:__
 - Fix text orientation for components-F.silkscreen
 - Change testpoint footprints

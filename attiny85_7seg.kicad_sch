@@ -4021,7 +4021,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ATtiny85-20P"
+		(property "Value" "ATtiny85"
 			(at 69.85 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
