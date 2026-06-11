@@ -120,18 +120,6 @@
   "project": {
     "files": [
       {
-        "name": "attiny85_7seg.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 12,
-          "pos_y": 61,
-          "size_x": 1445,
-          "size_y": 867
-        }
-      },
-      {
         "name": "attiny85_7seg.kicad_pcb",
         "open": true,
         "window": {
