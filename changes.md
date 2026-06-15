@@ -1,6 +1,9 @@
 # Change log
 This file keeps track of changes/updates on schematic and pcb design
 
+__v0.0.5:__
+- Add push button to PB4 pin
+
 __v0.0.4:__
 - Add image on b.silkscreen
 - change routing using plugin

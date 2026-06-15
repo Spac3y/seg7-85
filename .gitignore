@@ -4,3 +4,4 @@ attiny85_7seg-backups/
 bom/
 *.drl
 fp-lib-table
+*.kicad_pro.lck
