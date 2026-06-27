@@ -5,3 +5,4 @@ bom/
 *.drl
 fp-lib-table
 *.kicad_pro.lck
+*.lck

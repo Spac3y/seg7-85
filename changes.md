@@ -1,6 +1,9 @@
 # Change log
 This file keeps track of changes/updates on schematic and pcb design
 
+__v0.0.6:__
+- Add decoupling capacitors to ICs
+
 __v0.0.5:__
 - Add push button to PB4 pin
 
