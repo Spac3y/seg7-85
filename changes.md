@@ -1,6 +1,15 @@
 # Change log
 This file keeps track of changes/updates on schematic and pcb design
 
+__v0.1.0:__
+- Change footprint of power connector
+	(pinHeader 2.54mm -> Molex KK-254 2.54mm)
+- Increase size of board 61mm -> 65mm
+- Add explicit text for reset & mode buttons 
+- Add decoupling electrolytic cap to main power rail
+- Add programmable + reset buttons for Attiny85
+- Change testpoints footprint
+
 __v0.0.6:__
 - Add decoupling capacitors to ICs
 
