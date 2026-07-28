@@ -133,7 +133,7 @@
       },
       {
         "name": "attiny85_7seg.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,

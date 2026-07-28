@@ -1,6 +1,9 @@
 # Change log
 This file keeps track of changes/updates on schematic and pcb design
 
+__v0.1.1:__
+- Change mounting hole type to mounting pad and connected it to GND
+
 __v0.1.0:__
 - Change footprint of power connector
 	(pinHeader 2.54mm -> Molex KK-254 2.54mm)
