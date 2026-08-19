@@ -1,7 +1,10 @@
 # Change log
 This file keeps track of changes/updates on schematic and pcb design
 
-__v0.1.2:--
+__v0.1.3:__
+- Fix reset PullUp button
+
+__v0.1.2:__
 - Fix bulk capacitor polarity
 
 __v0.1.1:__

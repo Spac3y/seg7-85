@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "7seg display w/attiny85 & shift reg")
-		(date "2026-08-18")
-		(rev "0.1.2")
+		(date "2026-08-20")
+		(rev "0.1.3")
 		(comment 4 "For changes check changes.md")
 	)
 	(lib_symbols
@@ -3016,10 +3016,10 @@
 		(uuid "7e10feaa-3545-4098-bed2-7d0de7d640cb")
 	)
 	(junction
-		(at 73.66 135.89)
+		(at 73.66 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8a616c84-f8f3-4374-ba88-1fdd1a989358")
+		(uuid "7ff47874-8122-43c5-9a75-e7e3a7d3259d")
 	)
 	(junction
 		(at 82.55 43.18)
@@ -3289,16 +3289,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 135.89) (xy 73.66 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36d71968-b229-494c-82f8-b74e1733539d")
-	)
-	(wire
-		(pts
 			(xy 92.71 157.48) (xy 92.71 162.56)
 		)
 		(stroke
@@ -3389,6 +3379,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 154.94) (xy 73.66 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4810f0ca-2b25-4fce-ab0a-20adc5bfd1e0")
+	)
+	(wire
+		(pts
 			(xy 142.24 100.33) (xy 142.24 106.68)
 		)
 		(stroke
@@ -3396,16 +3396,6 @@
 			(type default)
 		)
 		(uuid "48308121-15c8-4acf-b384-f9b3a5806b67")
-	)
-	(wire
-		(pts
-			(xy 73.66 157.48) (xy 73.66 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d57d075-c9c9-4f7e-aea3-36d3a17708ca")
 	)
 	(wire
 		(pts
@@ -3509,6 +3499,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 134.62) (xy 73.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb1ead8-274f-4868-8276-5e9847280935")
+	)
+	(wire
+		(pts
 			(xy 83.82 67.31) (xy 83.82 76.2)
 		)
 		(stroke
@@ -3569,6 +3569,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 134.62) (xy 73.66 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7dfb73-1e49-4ba0-a98d-6cf432aaece2")
+	)
+	(wire
+		(pts
 			(xy 168.91 115.57) (xy 168.91 118.11)
 		)
 		(stroke
@@ -3589,7 +3599,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 130.81) (xy 73.66 135.89)
+			(xy 73.66 130.81) (xy 73.66 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3879,6 +3889,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 143.51) (xy 73.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91aca29-4734-4718-81c4-d75150178183")
+	)
+	(wire
+		(pts
 			(xy 152.4 71.12) (xy 160.02 71.12)
 		)
 		(stroke
@@ -3916,16 +3936,6 @@
 			(type default)
 		)
 		(uuid "ebf8b96a-37a6-4208-8143-8e4cdd4bb3e4")
-	)
-	(wire
-		(pts
-			(xy 73.66 135.89) (xy 73.66 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0cc752f-35dd-4471-8f5f-8ff7b2ac4c31")
 	)
 	(wire
 		(pts
@@ -4038,7 +4048,7 @@
 		(uuid "11af3729-5618-46a7-b33a-d81bc34b8221")
 	)
 	(label "RESET"
-		(at 67.31 135.89 0)
+		(at 67.31 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4548,7 +4558,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 73.66 144.78 90)
+		(at 73.66 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4559,7 +4569,7 @@
 		(fields_autoplaced yes)
 		(uuid "09390c3f-daef-4196-b7fa-15e8a2dc7872")
 		(property "Reference" "SW2"
-			(at 74.93 143.5099 90)
+			(at 74.93 148.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4570,7 +4580,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 74.93 146.0499 90)
+			(at 74.93 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4581,7 +4591,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 68.58 144.78 0)
+			(at 68.58 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4592,7 +4602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 144.78 0)
+			(at 68.58 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4603,7 +4613,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 73.66 144.78 0)
+			(at 73.66 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6391,7 +6401,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 153.67 0)
+		(at 73.66 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6402,7 +6412,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa1cbe53-4842-4719-8ab5-87bfc3e2be6a")
 		(property "Reference" "R6"
-			(at 76.2 152.3999 0)
+			(at 76.2 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6413,7 +6423,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 76.2 154.9399 0)
+			(at 76.2 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6424,7 +6434,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 71.882 153.67 90)
+			(at 71.882 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6435,7 +6445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 153.67 0)
+			(at 73.66 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6446,7 +6456,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 153.67 0)
+			(at 73.66 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
