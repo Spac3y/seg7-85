@@ -1,6 +1,9 @@
 # Change log
 This file keeps track of changes/updates on schematic and pcb design
 
+__v0.1.2:--
+- Fix bulk capacitor polarity
+
 __v0.1.1:__
 - Change mounting hole type to mounting pad and connected it to GND
 

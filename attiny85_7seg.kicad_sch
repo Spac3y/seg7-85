@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "7seg display w/attiny85 & shift reg")
-		(date "2026-07-28")
-		(rev "0.1.1")
+		(date "2026-08-18")
+		(rev "0.1.2")
 		(comment 4 "For changes check changes.md")
 	)
 	(lib_symbols
@@ -7023,7 +7023,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 76.2 45.72 270)
+		(at 76.2 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7033,7 +7033,7 @@
 		(dnp no)
 		(uuid "e74b2d6f-b6bd-47d0-878a-ade2a9fe73bc")
 		(property "Reference" "C4"
-			(at 75.438 38.1 90)
+			(at 76.962 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7043,7 +7043,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 75.438 40.64 90)
+			(at 76.962 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7053,7 +7053,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 72.39 46.6852 0)
+			(at 80.01 44.7548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
