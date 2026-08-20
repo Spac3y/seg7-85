@@ -1,6 +1,9 @@
 # Change log
 This file keeps track of changes/updates on schematic and pcb design
 
+--v0.1.31:__
+- Added dimensions for 3D printing on User1 layer
+
 __v0.1.3:__
 - Fix reset PullUp button
 

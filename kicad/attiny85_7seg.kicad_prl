@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 39,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -120,18 +120,6 @@
   "project": {
     "files": [
       {
-        "name": "attiny85_7seg.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 12,
-          "pos_y": 61,
-          "size_x": 1445,
-          "size_y": 867
-        }
-      },
-      {
         "name": "attiny85_7seg.kicad_pcb",
         "open": false,
         "window": {
@@ -141,6 +129,18 @@
           "pos_y": 134,
           "size_x": 1280,
           "size_y": 720
+        }
+      },
+      {
+        "name": "attiny85_7seg.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 12,
+          "pos_y": 61,
+          "size_x": 1445,
+          "size_y": 867
         }
       }
     ]
