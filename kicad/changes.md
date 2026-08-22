@@ -1,7 +1,11 @@
 # Change log
 This file keeps track of changes/updates on schematic and pcb design
 
---v0.1.31:__
+__v0.1.32:__
+- Added programming pinheaders for attiny85
+- Plus silkscreen text for easy reading
+
+__v0.1.31:__
 - Added dimensions for 3D printing on User1 layer
 
 __v0.1.3:__
