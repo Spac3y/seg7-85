@@ -1,6 +1,12 @@
 # Change log
 This file keeps track of changes/updates on schematic and pcb design
 
+__v0.1.41:__
+- Add 100nF ceramic capacitors for smoother signal
+- !Pullup & pulldown buttons still not fixed
+- Add more thermal relief pads on ground holes
+- Remove some non-copper 'islands'
+
 __v0.1.32:__
 - Added programming pinheaders for attiny85
 - Plus silkscreen text for easy reading

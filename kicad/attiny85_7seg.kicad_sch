@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "7seg display w/attiny85 & shift reg")
-		(date "2026-08-22")
-		(rev "0.1.32")
+		(date "2026-08-25")
+		(rev "0.1.41")
 		(comment 4 "For changes check changes.md")
 	)
 	(lib_symbols
@@ -3341,6 +3341,12 @@
 		(uuid "c65471d5-f54b-4178-b52f-378d6410b6b1")
 	)
 	(junction
+		(at 73.66 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b5964ca-1813-405c-8b4e-e8366a83f665")
+	)
+	(junction
 		(at 71.12 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3365,6 +3371,12 @@
 		(uuid "7e10feaa-3545-4098-bed2-7d0de7d640cb")
 	)
 	(junction
+		(at 92.71 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88ac79f4-2e6a-46f5-ad28-c26af630c45a")
+	)
+	(junction
 		(at 82.55 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3377,10 +3389,10 @@
 		(uuid "c7e8f2e8-ff29-45de-aae3-473a5ef9abae")
 	)
 	(junction
-		(at 73.66 144.78)
+		(at 73.66 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eb77c452-0bb0-4478-9894-5eef9274fff0")
+		(uuid "e479ccee-e82e-4450-b272-b08f3b1f8dca")
 	)
 	(junction
 		(at 92.71 147.32)
@@ -3544,6 +3556,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 158.75) (xy 101.6 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24391741-8c1e-42e7-b96f-84a1b7618b54")
+	)
+	(wire
+		(pts
 			(xy 152.4 115.57) (xy 160.02 115.57)
 		)
 		(stroke
@@ -3664,7 +3686,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 143.51) (xy 92.71 147.32)
+			(xy 92.71 143.51) (xy 92.71 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3734,6 +3756,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 146.05) (xy 73.66 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4476a72e-1a7c-4f0d-93ef-e84da0028471")
+	)
+	(wire
+		(pts
 			(xy 73.66 143.51) (xy 73.66 144.78)
 		)
 		(stroke
@@ -3754,7 +3786,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 154.94) (xy 73.66 162.56)
+			(xy 73.66 157.48) (xy 73.66 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3794,6 +3826,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 144.78) (xy 101.6 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5155125d-3f83-4cf0-960a-791f9bf96813")
+	)
+	(wire
+		(pts
 			(xy 132.08 128.27) (xy 128.27 128.27)
 		)
 		(stroke
@@ -3821,6 +3863,16 @@
 			(type default)
 		)
 		(uuid "592d2f6f-4f13-4bbe-aa25-ed675fd554c0")
+	)
+	(wire
+		(pts
+			(xy 73.66 146.05) (xy 73.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d01678b-931c-4e98-96fa-b16b5f6a26e0")
 	)
 	(wire
 		(pts
@@ -3871,6 +3923,16 @@
 			(type default)
 		)
 		(uuid "6b9bc6a1-9a05-4a68-9cb2-7f168f7c5ed8")
+	)
+	(wire
+		(pts
+			(xy 92.71 144.78) (xy 92.71 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb9feb4-2193-4ea7-b579-e0a0f2f5be12")
 	)
 	(wire
 		(pts
@@ -4074,6 +4136,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 157.48) (xy 67.31 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c3c455-b330-4080-8101-877af75a97c0")
+	)
+	(wire
+		(pts
 			(xy 152.4 58.42) (xy 160.02 58.42)
 		)
 		(stroke
@@ -4111,6 +4183,16 @@
 			(type default)
 		)
 		(uuid "ae392fb9-c2e0-4c1f-ad78-ad85e850883d")
+	)
+	(wire
+		(pts
+			(xy 73.66 147.32) (xy 73.66 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af90e25d-51fb-4eae-86bc-88a38c392c00")
 	)
 	(wire
 		(pts
@@ -4294,6 +4376,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 146.05) (xy 67.31 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfa0601-9132-41c5-8e44-32f42b8aef04")
+	)
+	(wire
+		(pts
 			(xy 152.4 71.12) (xy 160.02 71.12)
 		)
 		(stroke
@@ -4341,6 +4433,16 @@
 			(type default)
 		)
 		(uuid "ec350878-3c3f-4977-878a-dd3e09d5faf1")
+	)
+	(wire
+		(pts
+			(xy 92.71 144.78) (xy 101.6 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f362c5f4-7e1a-45d2-bdf5-49a8990ca8e6")
 	)
 	(wire
 		(pts
@@ -4611,6 +4713,16 @@
 			(justify right bottom)
 		)
 		(uuid "6c686367-a48e-4936-bebb-c01632898083")
+	)
+	(label "GND"
+		(at 101.6 162.56 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "719bf3e6-17dc-4bd7-971e-ca62ccab2a83")
 	)
 	(label "VCC"
 		(at 83.82 67.31 270)
@@ -4903,6 +5015,16 @@
 		(uuid "e77264b5-3ec7-4b41-a406-8671d09354ab")
 	)
 	(label "GND"
+		(at 67.31 162.56 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb492571-bc31-4ae9-8828-145c8833c770")
+	)
+	(label "GND"
 		(at 104.14 38.1 180)
 		(effects
 			(font
@@ -5023,7 +5145,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 73.66 149.86 90)
+		(at 73.66 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5034,17 +5156,6 @@
 		(fields_autoplaced yes)
 		(uuid "09390c3f-daef-4196-b7fa-15e8a2dc7872")
 		(property "Reference" "SW2"
-			(at 74.93 148.5899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
 			(at 74.93 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5055,8 +5166,19 @@
 				(justify right)
 			)
 		)
+		(property "Value" "SW_Push"
+			(at 74.93 153.6699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 68.58 149.86 0)
+			(at 68.58 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5067,7 +5189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 149.86 0)
+			(at 68.58 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5078,7 +5200,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 73.66 149.86 0)
+			(at 73.66 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5098,6 +5220,88 @@
 			(project "attiny85_7seg"
 				(path "/fb48a21d-be0f-47ca-a69e-877858c68eb9"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0969c8d6-8d01-424d-8dc0-c77ad0512cec")
+		(property "Reference" "C5"
+			(at 105.41 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 105.41 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+			(at 102.5652 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d0d83425-d2c2-48c7-9c90-cb02b083a390")
+		)
+		(pin "1"
+			(uuid "29c09c76-7bb0-4fa7-b198-24ba3919b5a5")
+		)
+		(instances
+			(project "attiny85_7seg"
+				(path "/fb48a21d-be0f-47ca-a69e-877858c68eb9"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7582,6 +7786,87 @@
 			(project "attiny85_7seg"
 				(path "/fb48a21d-be0f-47ca-a69e-877858c68eb9"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 67.31 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e72ff99f-70a0-484c-a1fd-4915d94b913d")
+		(property "Reference" "C6"
+			(at 64.77 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 64.77 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+			(at 66.3448 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 67.31 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8ba0439b-9c31-4963-b604-f0f9a7391028")
+		)
+		(pin "1"
+			(uuid "1051c826-7ec3-464a-a97b-8846d63bc131")
+		)
+		(instances
+			(project "attiny85_7seg"
+				(path "/fb48a21d-be0f-47ca-a69e-877858c68eb9"
+					(reference "C6")
 					(unit 1)
 				)
 			)
