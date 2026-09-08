@@ -6,7 +6,7 @@ A 4-digit 7-segment display driven by an ATtiny85, scrolling a text message acro
 
 The ATtiny85 bit-bangs two daisy-chained 74HC595 shift registers to drive a common-anode 4-digit 7-segment display (segments + digit select). A Timer1 CTC interrupt (~3 Hz) shifts the next character of the message into a 4-character rolling buffer, which is refreshed continuously via multiplexing.
 
-Default message: `I LOVE YOU`.
+![Schematic](schematic.png)
 
 ## Hardware (BOM)
 
