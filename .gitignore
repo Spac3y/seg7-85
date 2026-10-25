@@ -6,3 +6,5 @@ bom/
 fp-lib-table
 *.kicad_pro.lck
 *.lck
+.vscode
+.vibe-wise
