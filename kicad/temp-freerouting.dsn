@@ -84,26 +84,17 @@
       (place U3 139616.1 -101140.5 front -90 (PN 74HC595))
       (place U4 139666.1 -113950.5 front -90 (PN 74HC595))
     )
-    (component Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm::1
-      (place C5 131740 -129220 front 180 (PN 100nF))
-    )
     (component MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom
       (place H1 121204.527 -69933.927 front 0 (PN MountingHole_Pad))
       (place H4 170547.673 -129277.073 front 0 (PN MountingHole_Pad))
       (place H2 170547.673 -69933.927 front 0 (PN MountingHole_Pad))
       (place H3 121204.527 -129277.073 front 0 (PN MountingHole_Pad))
     )
-    (component Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm::2
+    (component Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm::1
       (place C2 143266.1 -107445.5 front 90 (PN 100nF))
       (place C3 143986.1 -120255.5 front 90 (PN 100nF))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
-      (place R5 135740 -129220.5 front 0 (PN 10k))
-    )
-    (component Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm::3
-      (place C6 126740 -125390 front 0 (PN 100nF))
-    )
-    (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal::1
       (place R2 162816.1 -95800.5 front -90 (PN 220))
       (place R1 148896.1 -95800.5 front -90 (PN 220))
       (place R4 153536.1 -95800.5 front -90 (PN 220))
@@ -114,13 +105,6 @@
       (place IMG1 165936.1 -78740.5 front 0 (PN LOGO))
       (place IMG2 123356.1 -85530.5 back 270 (PN "KiCad-Logo_8mm_SilkScreen"))
       (place IMG3 167476.1 -85520.607 back 0 (PN "WEEE-Logo_8.4x12mm_SilkScreen"))
-    )
-    (component Button_Switch_THT:SW_PUSH_6mm
-      (place SW1 153356.1 -122660.5 front -90 (PN SW_Push))
-      (place SW2 162716.1 -122700.5 front -90 (PN SW_Push))
-    )
-    (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal::2
-      (place R6 145900 -125410.5 front 180 (PN 10k))
     )
     (component "Display_7Segment:CA56-12SURKWA"
       (place U2 138996.1 -90600.5 front 90 (PN "CC56-12SURKWA"))
@@ -437,16 +421,6 @@
       (pin Round[A]Pad_1600.000000_um 15 7620 -2540)
       (pin Round[A]Pad_1600.000000_um 16 7620 0)
     )
-    (image Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm::1
-      (outline (polygon signal 0  -2745 1495  7745 1495  7745 -1495  -2745 -1495))
-      (outline (path signal 120  7620 -1370  -2620 -1370))
-      (outline (path signal 120  7620 1370  7620 -1370))
-      (outline (path signal 120  -2620 -1370  -2620 1370))
-      (outline (path signal 120  -2620 1370  7620 1370))
-      (outline (path signal 100  -2500 1250  7500 1250  7500 -1250  -2500 -1250  -2500 1250))
-      (pin Round[A]Pad_1600.000000_um 1 0 0)
-      (pin Round[A]Pad_1600.000000_um 2 5000 0)
-    )
     (image MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom
       (outline (polygon signal 0  398.432 2566.72  710.825 2498.31  1012.45 2392.02  1298.73 2249.47
             1565.32 2072.82  1808.18 1864.75  2023.63 1628.41  2208.41 1367.38
@@ -478,7 +452,7 @@
       (pin Round[T]Pad_4700.000000_um 1@1 0 0)
       (pin Round[B]Pad_4700.000000_um 1@2 0 0)
     )
-    (image Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm::2
+    (image Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm::1
       (outline (polygon signal 0  -2745 -1495  -2745 1495  7745 1495  7745 -1495))
       (outline (path signal 120  7620 1370  7620 -1370))
       (outline (path signal 120  -2620 1370  7620 1370))
@@ -489,27 +463,6 @@
       (pin Round[A]Pad_1600.000000_um 2 5000 0)
     )
     (image Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
-      (outline (polygon signal 0  11205 -1495  -1045 -1495  -1045 1495  11205 1495))
-      (outline (path signal 120  1040 0  1810 0))
-      (outline (path signal 120  9120 0  8350 0))
-      (outline (path signal 120  1810 1370  8350 1370  8350 -1370  1810 -1370  1810 1370))
-      (outline (path signal 100  0 0  1930 0))
-      (outline (path signal 100  10160 0  8230 0))
-      (outline (path signal 100  1930 1250  8230 1250  8230 -1250  1930 -1250  1930 1250))
-      (pin Round[A]Pad_1600.000000_um 1 0 0)
-      (pin Round[A]Pad_1600.000000_um 2 10160 0)
-    )
-    (image Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm::3
-      (outline (polygon signal 0  7745 -1495  -2745 -1495  -2745 1495  7745 1495))
-      (outline (path signal 120  -2620 1370  7620 1370))
-      (outline (path signal 120  -2620 -1370  -2620 1370))
-      (outline (path signal 120  7620 1370  7620 -1370))
-      (outline (path signal 120  7620 -1370  -2620 -1370))
-      (outline (path signal 100  -2500 1250  7500 1250  7500 -1250  -2500 -1250  -2500 1250))
-      (pin Round[A]Pad_1600.000000_um 1 0 0)
-      (pin Round[A]Pad_1600.000000_um 2 5000 0)
-    )
-    (image Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal::1
       (outline (polygon signal 0  11205 1495  11205 -1495  -1045 -1495  -1045 1495))
       (outline (path signal 120  1040 0  1810 0))
       (outline (path signal 120  9120 0  8350 0))
@@ -521,45 +474,6 @@
       (pin Round[A]Pad_1600.000000_um 2 10160 0)
     )
     (image SilkScreen:thehorseishere
-    )
-    (image Button_Switch_THT:SW_PUSH_6mm
-      (outline (polygon signal 0  7995 1495  7995 -5995  -1495 -5995  -1495 1495))
-      (outline (path signal 120  1000 -5500  5500 -5500))
-      (outline (path signal 120  6750 -3000  6750 -1500))
-      (outline (path signal 120  -250 -1500  -250 -3000))
-      (outline (path signal 120  5500 1000  1000 1000))
-      (outline (path signal 100  250 -5250  250 750))
-      (outline (path signal 100  6250 -5250  250 -5250))
-      (outline (path signal 100  250 750  3250 750))
-      (outline (path signal 100  3250 750  6250 750))
-      (outline (path signal 100  6250 750  6250 -5250))
-      (outline (path signal 100  3250 -234.436  3524.45 -253.209  3793.79 -309.179  4053 -401.302
-            4297.26 -527.863  4522 -686.504  4723.05 -874.27  4896.65 -1087.66
-            5039.59 -1322.71  5149.19 -1575.03  5223.41 -1839.92  5260.86 -2112.45
-            5260.86 -2387.55  5223.41 -2660.08  5149.19 -2924.97  5039.59 -3177.29
-            4896.65 -3412.34  4723.05 -3625.73  4522 -3813.5  4297.26 -3972.14
-            4053 -4098.7  3793.79 -4190.82  3524.45 -4246.79  3250 -4265.56
-            2975.55 -4246.79  2706.21 -4190.82  2447 -4098.7  2202.74 -3972.14
-            1978 -3813.5  1776.95 -3625.73  1603.35 -3412.34  1460.41 -3177.29
-            1350.81 -2924.97  1276.59 -2660.08  1239.13 -2387.55  1239.13 -2112.45
-            1276.59 -1839.92  1350.81 -1575.03  1460.41 -1322.71  1603.35 -1087.66
-            1776.95 -874.27  1978 -686.504  2202.74 -527.863  2447 -401.302
-            2706.21 -309.179  2975.55 -253.209  3250 -234.436))
-      (pin Round[A]Pad_2000.000000_um (rotate 90) 1 0 0)
-      (pin Round[A]Pad_2000.000000_um (rotate 90) 1@1 6500 0)
-      (pin Round[A]Pad_2000.000000_um (rotate 90) 2 0 -4500)
-      (pin Round[A]Pad_2000.000000_um (rotate 90) 2@1 6500 -4500)
-    )
-    (image Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal::2
-      (outline (polygon signal 0  -1045 1495  11205 1495  11205 -1495  -1045 -1495))
-      (outline (path signal 120  9120 0  8350 0))
-      (outline (path signal 120  1040 0  1810 0))
-      (outline (path signal 120  1810 1370  8350 1370  8350 -1370  1810 -1370  1810 1370))
-      (outline (path signal 100  10160 0  8230 0))
-      (outline (path signal 100  0 0  1930 0))
-      (outline (path signal 100  1930 1250  8230 1250  8230 -1250  1930 -1250  1930 1250))
-      (pin Round[A]Pad_1600.000000_um 1 0 0)
-      (pin Round[A]Pad_1600.000000_um 2 10160 0)
     )
     (image "Display_7Segment:CA56-12SURKWA"
       (outline (polygon signal 0  -2125 -31745  -2125 19045  17365 19045  17365 -31745))
@@ -610,11 +524,6 @@
     (padstack Round[A]Pad_1700.000000_um
       (shape (circle F.Cu 1700))
       (shape (circle B.Cu 1700))
-      (attach off)
-    )
-    (padstack Round[A]Pad_2000.000000_um
-      (shape (circle F.Cu 2000))
-      (shape (circle B.Cu 2000))
       (attach off)
     )
     (padstack Round[A]Pad_3100.000000_um
@@ -679,18 +588,17 @@
   )
   (network
     (net /RST
-      (pins U1-1 J1-6 C6-2 R6-2 SW2-2 SW2-2@1)
+      (pins U1-1 J1-6)
     )
     (net /RCLK
       (pins U1-2 J1-4 U3-12 U4-12)
     )
     (net /MODE
-      (pins U1-3 J1-5 C5-1 R5-1 SW1-1 SW1-1@1)
+      (pins U1-7 J1-5)
     )
     (net GND
-      (pins U1-4 TP1-2 C1-1 J2-2 C4-2 U3-8 U3-13 U4-8 U4-13 C5-2 H1-1 H1-1@1 H1-1@2
-        H4-1 H4-1@1 H4-1@2 C2-2 R5-2 C6-1 H2-1 H2-1@1 H2-1@2 C3-2 H3-1 H3-1@1 H3-1@2
-        SW2-1 SW2-1@1)
+      (pins U1-4 TP1-2 C1-1 J2-2 C4-2 U3-8 U3-13 U4-8 U4-13 H1-1 H1-1@1 H1-1@2 H4-1
+        H4-1@1 H4-1@2 C2-2 H2-1 H2-1@1 H2-1@2 C3-2 H3-1 H3-1@1 H3-1@2)
     )
     (net /DATA
       (pins U1-5 J1-1 U3-14)
@@ -699,10 +607,10 @@
       (pins U1-6 J1-2 U3-11 U4-11)
     )
     (net /SRCLR
-      (pins U1-7 J1-3 U3-10 U4-10)
+      (pins U1-3 J1-3 U3-10 U4-10)
     )
     (net VCC
-      (pins U1-8 TP1-1 C1-2 J2-1 C4-1 U3-16 U4-16 C2-1 C3-1 SW1-2 SW1-2@1 R6-1)
+      (pins U1-8 TP1-1 C1-2 J2-1 C4-1 U3-16 U4-16 C2-1 C3-1)
     )
     (net /QB
       (pins U3-1 U2-7)
@@ -775,7 +683,8 @@
     )
     (class kicad_default /D1 /D2 /D3 /D4 /DATA /MODE /QA /QB /QC /QD /QE /QF
       /QG /RCLK /RST /SRCLK /SRCLR GND "Net-(U2-CC1)" "Net-(U2-CC2)" "Net-(U2-CC3)"
-      "Net-(U2-CC4)" "Net-(U3-QH')" VCC "unconnected-(U2-DPX-Pad3)" "unconnected-(U4-QD-Pad3)"
+      "Net-(U2-CC4)" "Net-(U3-QH')" VCC "unconnected-(C5-Pad1)" "unconnected-(C5-Pad2)"
+      "unconnected-(C6-Pad2)" "unconnected-(U2-DPX-Pad3)" "unconnected-(U4-QD-Pad3)"
       "unconnected-(U4-QE-Pad4)" "unconnected-(U4-QF-Pad5)" "unconnected-(U4-QG-Pad6)"
       "unconnected-(U4-QH'-Pad9)" "unconnected-(U4-QH-Pad7)"
       (circuit
@@ -821,11 +730,11 @@
     (wire (path F.Cu 200  135740 -129220  131740 -129220)(net /MODE)(type route))
     (wire (path F.Cu 200  153356 -119556  153356 -122660)(net /MODE)(type route))
     (wire (path F.Cu 200  151787 -130730  153356 -129160)(net /MODE)(type route))
-    (wire (path B.Cu 200  161062 -115838  163660 -113240  167655 -113240)(net /MODE)(type route))
-    (wire (path B.Cu 200  161062 -116206  161062 -115838)(net /MODE)(type route))
-    (wire (path B.Cu 200  154240 -122660  160092 -116808  160460 -116808)(net /MODE)(type route))
-    (wire (path B.Cu 200  153356 -122660  154240 -122660)(net /MODE)(type route))
-    (wire (path B.Cu 200  160460 -116808  161062 -116206)(net /MODE)(type route))
+    (wire (path B.Cu 200  161062 -115838  163660 -113240  167655 -113240)(net /SRCLR)(type route))
+    (wire (path B.Cu 200  161062 -116206  161062 -115838)(net /SRCLR)(type route))
+    (wire (path B.Cu 200  154240 -122660  160092 -116808  160460 -116808)(net /SRCLR)(type route))
+    (wire (path B.Cu 200  153356 -122660  154240 -122660)(net /SRCLR)(type route))
+    (wire (path B.Cu 200  160460 -116808  161062 -116206)(net /SRCLR)(type route))
     (wire (path F.Cu 400  145540 -129160  145480 -129220)(net GND)(type route))
     (wire (path F.Cu 200  154160 -110680  154180 -110700  160035 -110700)(net /DATA)(type route))
     (wire (path B.Cu 200  150022 -110160  149040 -110160)(net /DATA)(type route))

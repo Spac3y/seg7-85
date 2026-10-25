@@ -1,6 +1,12 @@
 # Change log
 This file keeps track of changes/updates on schematic and pcb design
 
+__v0.1.42:__
+- Fix pullup(MODE) & pulldown(RESET) buttons
+- Remove cap for RESET
+- Change MODE pin PB4 -> PB2 (INT0), higher level interrupt
+- !PCB wiring needs update
+
 __v0.1.41:__
 - Add 100nF ceramic capacitors for smoother signal
 - !Pullup & pulldown buttons still not fixed
