@@ -1,6 +1,9 @@
 # Change log
 This file keeps track of changes/updates on schematic and pcb design
 
+__v0.1.52:__
+- Added ground stitching, (was optional, mostly for aspect) also removed some empty copper zones
+
 __v0.1.51:__
 - Add more silkscreen design to back
 - Fix some wiring
