@@ -1,6 +1,14 @@
 # Change log
 This file keeps track of changes/updates on schematic and pcb design
 
+__v0.1.50:__
+- Add back(again) cap for RESET(optional just in case)
+- Completly modify parts placement for even layout
+    - Used 2.5mm spacing for components / groups
+    - 1.5mm for caps near ICs
+- Added a 3mm padding around the whole board (EDGE.CUTS)
+- Fixed PCB wiring
+
 __v0.1.42:__
 - Fix pullup(MODE) & pulldown(RESET) buttons
 - Remove cap for RESET

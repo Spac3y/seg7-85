@@ -60,16 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "starved_thermal|169056100|97120000|da6e77ee-a8f3-4e46-a025-2aaa95e22623|d25668a2-3c96-484d-8ef5-60a3a1467256|B.Cu",
-          "Default connector, can't modify this one"
-        ],
-        [
-          "starved_thermal|169056100|97120000|da6e77ee-a8f3-4e46-a025-2aaa95e22623|d25668a2-3c96-484d-8ef5-60a3a1467256|F.Cu",
-          "Default connector, can't modify this one"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -147,7 +138,7 @@
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.8,
         "min_microvia_drill": 0.4,
-        "min_resolved_spokes": 4,
+        "min_resolved_spokes": 3,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -258,7 +249,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.1.41"
+      "sch_revision": "0.1.50"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -666,7 +657,7 @@
         "uuid": "fb48a21d-be0f-47ca-a69e-877858c68eb9"
       }
     ],
-    "used_designators": "#PWR15-19,C5-6",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "7seg display w/attiny85 & shift reg")
-		(date "2026-08-25")
-		(rev "0.1.41")
+		(date "2026-10-26")
+		(rev "0.1.50")
 		(comment 4 "For changes check changes.md")
 	)
 	(lib_symbols
@@ -3230,6 +3230,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "C5 & C6 are in case\nof signal degredation"
+		(exclude_from_sim no)
+		(at 69.088 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35e9570b-b445-4ead-909f-e9059a2de245")
+	)
 	(text "Add sw debounce\nto MODE"
 		(exclude_from_sim no)
 		(at 99.06 130.556 0)
@@ -3322,8 +3332,8 @@
 	)
 	(text_box "MCU SWITCHES"
 		(exclude_from_sim no)
-		(at 58.42 123.19 0)
-		(size 50.8 44.45)
+		(at 45.72 123.19 0)
+		(size 63.5 44.45)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3371,7 +3381,7 @@
 		(uuid "7e10feaa-3545-4098-bed2-7d0de7d640cb")
 	)
 	(junction
-		(at 69.85 144.78)
+		(at 55.88 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad7c8114-3920-4e1f-9a38-b79390740c5f")
@@ -3534,7 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 144.78) (xy 69.85 147.32)
+			(xy 55.88 144.78) (xy 55.88 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3581,6 +3591,16 @@
 			(type default)
 		)
 		(uuid "24e7f469-75f7-4e90-abc8-fb274ed98796")
+	)
+	(wire
+		(pts
+			(xy 68.58 144.78) (xy 68.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2757b69f-2646-4708-9091-20669283c735")
 	)
 	(wire
 		(pts
@@ -3754,7 +3774,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 157.48) (xy 69.85 160.02)
+			(xy 55.88 157.48) (xy 55.88 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3824,7 +3844,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 142.24) (xy 69.85 144.78)
+			(xy 55.88 142.24) (xy 55.88 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3844,7 +3864,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 144.78) (xy 76.2 144.78)
+			(xy 55.88 144.78) (xy 68.58 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3974,7 +3994,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 132.08) (xy 69.85 134.62)
+			(xy 55.88 132.08) (xy 55.88 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4141,6 +4161,16 @@
 			(type default)
 		)
 		(uuid "b5621209-6a2f-4195-9186-d5c5d1e171b7")
+	)
+	(wire
+		(pts
+			(xy 68.58 157.48) (xy 68.58 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9e7bc4-2091-4a66-8617-af10c622f31e")
 	)
 	(wire
 		(pts
@@ -4603,7 +4633,7 @@
 		(uuid "4f788ffd-0370-4389-87e3-f237a13eb968")
 	)
 	(label "RST"
-		(at 76.2 144.78 180)
+		(at 62.23 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5013,7 +5043,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 69.85 152.4 90)
+		(at 55.88 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5024,7 +5054,7 @@
 		(fields_autoplaced yes)
 		(uuid "09390c3f-daef-4196-b7fa-15e8a2dc7872")
 		(property "Reference" "SW2"
-			(at 71.12 151.1299 90)
+			(at 57.15 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5035,7 +5065,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 71.12 153.6699 90)
+			(at 57.15 153.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5046,7 +5076,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 64.77 152.4 0)
+			(at 50.8 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5057,7 +5087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 152.4 0)
+			(at 50.8 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5068,7 +5098,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 69.85 152.4 0)
+			(at 55.88 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6680,7 +6710,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 69.85 132.08 0)
+		(at 55.88 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6691,7 +6721,7 @@
 		(fields_autoplaced yes)
 		(uuid "76b95b60-dcd4-4ea8-84b1-f66661962ec9")
 		(property "Reference" "#PWR018"
-			(at 69.85 135.89 0)
+			(at 55.88 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6702,7 +6732,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 69.85 127 0)
+			(at 55.88 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6712,7 +6742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 132.08 0)
+			(at 55.88 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,7 +6753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 132.08 0)
+			(at 55.88 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6734,7 +6764,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 69.85 132.08 0)
+			(at 55.88 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7341,7 +7371,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 138.43 0)
+		(at 55.88 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7352,7 +7382,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa1cbe53-4842-4719-8ab5-87bfc3e2be6a")
 		(property "Reference" "R6"
-			(at 72.39 137.1599 0)
+			(at 58.42 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7363,7 +7393,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 72.39 139.6999 0)
+			(at 58.42 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7374,7 +7404,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 68.072 138.43 90)
+			(at 54.102 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7385,7 +7415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 138.43 0)
+			(at 55.88 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7396,7 +7426,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 69.85 138.43 0)
+			(at 55.88 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7501,7 +7531,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 160.02 0)
+		(at 55.88 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7512,7 +7542,7 @@
 		(fields_autoplaced yes)
 		(uuid "b88b578b-a844-4fc6-bd34-d79d982c1413")
 		(property "Reference" "#PWR015"
-			(at 69.85 166.37 0)
+			(at 55.88 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7523,7 +7553,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 165.1 0)
+			(at 55.88 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7533,7 +7563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 160.02 0)
+			(at 55.88 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7544,7 +7574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 160.02 0)
+			(at 55.88 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7555,7 +7585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 160.02 0)
+			(at 55.88 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7891,6 +7921,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 68.58 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc0b0e7e-0119-4683-abb6-6e261b7fc780")
+		(property "Reference" "C6"
+			(at 72.39 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 72.39 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+			(at 69.5452 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 68.58 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5bd32cfb-6436-4303-9f22-20c9af2219d2")
+		)
+		(pin "2"
+			(uuid "c07d58ec-acec-4dc1-a76d-1510fee85a43")
+		)
+		(instances
+			(project "attiny85_7seg"
+				(path "/fb48a21d-be0f-47ca-a69e-877858c68eb9"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 29.21 73.66 0)
 		(unit 1)
@@ -7964,6 +8076,84 @@
 			(project "attiny85_7seg"
 				(path "/fb48a21d-be0f-47ca-a69e-877858c68eb9"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1903f9e-b4bc-4daf-a1cc-927bbc175fb9")
+		(property "Reference" "#PWR020"
+			(at 68.58 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddc440df-8ea3-4e48-8d78-4899d6e09f74")
+		)
+		(instances
+			(project "attiny85_7seg"
+				(path "/fb48a21d-be0f-47ca-a69e-877858c68eb9"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
