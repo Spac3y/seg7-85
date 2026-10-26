@@ -1,6 +1,10 @@
 # Change log
 This file keeps track of changes/updates on schematic and pcb design
 
+__v0.1.51:__
+- Add more silkscreen design to back
+- Fix some wiring
+
 __v0.1.50:__
 - Add back(again) cap for RESET(optional just in case)
 - Completly modify parts placement for even layout
